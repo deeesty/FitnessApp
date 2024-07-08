@@ -43,5 +43,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         trainings.append(training5)
         trainings.append(training6)
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let training = trainings[indexPath.row]
+        
+        var infoViewController: InfoViewController = self.storyboard!.instantiateViewController(withIdentifier: "InfoViewController") as! InfoViewController
+        infoViewController.nameString = training.name
+        infoViewController.infoTextString = training.description
+        infoViewController.infoImageText = training.trainingImageName
+        
+        self.present(infoViewController, animated: true)
+    }
 }
 

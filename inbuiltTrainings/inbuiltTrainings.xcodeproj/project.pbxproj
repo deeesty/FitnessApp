@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD29E8C62C3B559000004CD6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD29E8C52C3B559000004CD6 /* InfoViewController.swift */; };
 		ADE7FC552C3B1EA80025B680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE7FC542C3B1EA80025B680 /* AppDelegate.swift */; };
 		ADE7FC572C3B1EA80025B680 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE7FC562C3B1EA80025B680 /* SceneDelegate.swift */; };
 		ADE7FC592C3B1EA80025B680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE7FC582C3B1EA80025B680 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD29E8C52C3B559000004CD6 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		ADE7FC512C3B1EA80025B680 /* inbuiltTrainings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inbuiltTrainings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE7FC542C3B1EA80025B680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE7FC562C3B1EA80025B680 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				ADE7FC5D2C3B1EA80025B680 /* inbuiltTrainings.xcdatamodeld */,
 				ADE7FC6B2C3B1FB30025B680 /* CustomCell.swift */,
 				ADE7FC6D2C3B22F60025B680 /* Training.swift */,
+				AD29E8C52C3B559000004CD6 /* InfoViewController.swift */,
 			);
 			path = inbuiltTrainings;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				ADE7FC592C3B1EA80025B680 /* ViewController.swift in Sources */,
 				ADE7FC6E2C3B22F60025B680 /* Training.swift in Sources */,
 				ADE7FC552C3B1EA80025B680 /* AppDelegate.swift in Sources */,
+				AD29E8C62C3B559000004CD6 /* InfoViewController.swift in Sources */,
 				ADE7FC6C2C3B1FB30025B680 /* CustomCell.swift in Sources */,
 				ADE7FC572C3B1EA80025B680 /* SceneDelegate.swift in Sources */,
 				ADE7FC5F2C3B1EA80025B680 /* inbuiltTrainings.xcdatamodeld in Sources */,
